@@ -1,5 +1,5 @@
 body{
-  background-color: #7EC0EE;
+  background-color: #298eea;
 }
 
 /* Header part */
@@ -26,12 +26,13 @@ form{
   margin-right: auto;
 }
 
-form h1{
-  color: grey;
-  padding: 30px 0 ;
+form legend{
+
+  padding: 30px 0;
+  font-size: 35px;
   font-weight: 400;
-  margin:0;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 form label{
@@ -41,7 +42,7 @@ form label{
 
 form input, form button{
   display: block;
-  height: 50px;
+  height: 55px;
   width: 320px;
   border-radius: 3px;
 }
@@ -68,7 +69,7 @@ form button:hover{
 form .forgot{
   text-align: center;
   text-decoration: underline;
-  padding: 5px 0 25px 0;
+  padding: 5px 0 35px 0;
 }
 
 form .forgot a{
